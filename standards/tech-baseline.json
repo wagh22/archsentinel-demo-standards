@@ -1,9 +1,13 @@
 {
-  "banned_dependencies": [
+  "schema_version": "1.0.0",
+  "entries": [
     {
-      "name": "urllib",
-      "ecosystem": "pip",
-      "reason": "Use requests library instead."
+      "id": "TECH-BAN-URLLIB",
+      "technology": "urllib",
+      "ecosystem": "python",
+      "policy": "banned",
+      "severity": "high",
+      "rationale": "Use requests instead"
     }
   ]
 }
