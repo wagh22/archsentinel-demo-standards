@@ -1,0 +1,9 @@
+{
+  "banned_dependencies": [
+    {
+      "name": "urllib",
+      "ecosystem": "pip",
+      "reason": "Use requests library instead."
+    }
+  ]
+}

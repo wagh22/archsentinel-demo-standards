@@ -1,0 +1,10 @@
+{
+  "log_rules": [
+    {
+      "id": "RUNTIME-SEC-LOG-001",
+      "regex": "(?i)password=|secret=",
+      "severity": "critical",
+      "message": "Plaintext secret detected in logs."
+    }
+  ]
+}
